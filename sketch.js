@@ -22,7 +22,7 @@ function setup() { //初始值設定
   for (let i = 0; i < serweednum; i++) { // 初始化水草的屬性
     seaweeds.push({
       baseX: (i + 0.5) * (width / serweednum), // 水草的水平位置，均勻分布
-      height: random(140, 220), // 水草的高度
+      height: random(140, 420), // 水草的高度
       color: random(colors), // 從五種顏色中隨機選擇，直接使用字串
       thickness: random(15, 35), // 水草的粗細
       frequency: random(0.02, 0.08) // 水草的搖晃頻率
